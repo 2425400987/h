@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240">
+  <style>
+    @font-face { font-family: "Fraunces"; src: url("/workspace/.grok/brand/fraunces.ttf"); }
+    @font-face { font-family: "Outfit"; src: url("/workspace/.grok/brand/outfit.ttf"); }
+  </style>
+  <rect width="800" height="240" fill="#FBF3F1"/>
+  <text x="40" y="110" font-family="Fraunces" font-size="72" fill="#5C1633">KNOW CHECK ACT</text>
+  <text x="40" y="170" font-family="Outfit" font-size="28" fill="#9D174D">Breast cancer awareness</text>
+</svg>

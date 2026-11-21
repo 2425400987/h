@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Know Check Act — Breast cancer awareness",
+      "hasCanvas": false,
+      "bodyTextLen": 3476,
+      "bodyTextHash": "7f06eeabe0cf3af6f349925e237dca813af3e44d41bb8899409c38083fee79d1",
+      "bodyTextPrefix": "Know Check Act Signs Monthly check Lower risk Begin a check BREA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Know Check Act — Breast cancer awareness",
+      "hasCanvas": false,
+      "bodyTextLen": 3445,
+      "bodyTextHash": "bca4d2514e6031f14982946a51e896acc057b803244c9d159fd29f10dedd556b",
+      "bodyTextPrefix": "Know Check Act Begin a check BREAST CANCER AWARENESS Breast Canc",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1260" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @font-face { font-family: "Fraunces"; src: url("/workspace/.grok/brand/fraunces.ttf"); }
+      @font-face { font-family: "Outfit"; src: url("/workspace/.grok/brand/outfit.ttf"); }
+    </style>
+    <clipPath id="tails">
+      <rect x="20" y="188" width="240" height="232"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="#FBF3F1"/>
+  
+    <g fill="none" stroke="#E23D78" stroke-linecap="round" stroke-opacity="0.20">
+      <path d="M-60 92C160 18 340 168 620 78C900 -8 1040 64 1280 28" stroke-width="1.6"/>
+      <path d="M-60 128C180 58 360 204 640 116C920 30 1060 100 1280 62" stroke-width="0.9"/>
+      <path d="M-40 548C220 470 460 620 740 530C1020 440 1140 520 1280 468" stroke-width="1.6"/>
+      <path d="M-40 586C240 512 480 658 760 568C1040 478 1160 556 1280 506" stroke-width="0.9"/>
+    </g>
+    
+  <g transform="translate(103.61,59.00) scale(1.14155)">
+    
+<g id="mark">
+  <g clip-path="url(#tails)">
+    <polygon fill="#9D174D" points="148,196 206,222 248,410 176,378"/>
+    <polygon fill="#E23D78" points="118,200 168,222 96,412 36,378"/>
+  </g>
+  <path d="M140 214C140 162 72 156 42 114C16 78 44 30 98 28C136 26 154 60 142 98"
+        fill="none" stroke="#9D174D" stroke-width="36" stroke-linecap="round"/>
+  <path d="M140 214C140 162 208 156 238 114C264 78 236 30 182 28C144 26 126 60 138 98"
+        fill="none" stroke="#E23D78" stroke-width="36" stroke-linecap="round"/>
+  <path d="M168 86C196 78 214 98 206 122"
+        fill="none" stroke="#FFFAF8" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="142" cy="206" rx="18" ry="12" fill="#9D174D"/>
+</g>
+
+  </g>
+  <line x1="772.4" y1="534.7" x2="828.4" y2="534.7" stroke="#E23D78" stroke-width="2" stroke-linecap="round"/>
+  <text x="800.4" y="210.3" text-anchor="middle" font-family="Fraunces" font-size="150.8" fill="#5C1633">KNOW</text><text x="800.4" y="346.0" text-anchor="middle" font-family="Fraunces" font-size="150.8" fill="#5C1633">CHECK</text><text x="800.4" y="481.7" text-anchor="middle" font-family="Fraunces" font-size="150.8" fill="#5C1633">ACT</text><text x="800.4" y="574.7" text-anchor="middle" font-family="Outfit" font-size="26" fill="#9D174D">Learn what is usual for you</text>
+</svg>

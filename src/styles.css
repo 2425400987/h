@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blush: #fbf3f1;
+  --color-paper: #fffaf8;
+  --color-mist: #f4e4e6;
+  --color-ink: #5c1633;
+  --color-ink-soft: #6e3a4e;
+  --color-line: #e4cfd3;
+  --color-ribbon: #e23d78;
+  --color-ribbon-deep: #9d174d;
+  --color-gold: #6f5224;
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, serif;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --radius-card: 1.5rem;
+  --radius-pill: 999px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-blush);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ribbon-deep);
+    outline-offset: 3px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--color-ribbon) 28%, white);
+    color: var(--color-ink);
+  }
+}
+
+@keyframes silk-drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -12px, 0);
+  }
+}
+
+.silk-drift {
+  animation: silk-drift 16s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .silk-drift {
+    animation: none;
+  }
+}
