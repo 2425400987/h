@@ -41,7 +41,7 @@ def main() -> None:
     # Largest word sets the lockup width. Aim for a little over half the frame.
     probe = ImageFont.truetype(str(FRAUNCES), 100)
     check_w = probe.getlength("CHECK")
-    target = 560  # ~47–55% once optical; tuned after the side ribbon
+    target = 600  # half the 1200 frame; ribbon sits beside, not under, the words
     title_size = 100 * (target / check_w)
     title_size = round(title_size, 1)
     title_font = ImageFont.truetype(str(FRAUNCES), title_size)
@@ -49,7 +49,7 @@ def main() -> None:
     word_w = {w: title_font.getlength(w) for w in words}
     ascent, descent = title_font.getmetrics()
     # Caps sit well above the baseline; use a tight but open leading.
-    line_gap = title_size * 0.90
+    line_gap = title_size * 0.82
     stack_h = ascent + 2 * line_gap + descent
 
     tag_size = 26
@@ -121,10 +121,10 @@ def main() -> None:
 
     silk = f"""
     <g fill="none" stroke="{RIBBON}" stroke-linecap="round" stroke-opacity="0.20">
-      <path d="M-60 92C160 18 340 168 620 78C900 -8 1040 64 1280 28" stroke-width="1.6"/>
-      <path d="M-60 128C180 58 360 204 640 116C920 30 1060 100 1280 62" stroke-width="0.9"/>
-      <path d="M-40 548C220 470 460 620 740 530C1020 440 1140 520 1280 468" stroke-width="1.6"/>
-      <path d="M-40 586C240 512 480 658 760 568C1040 478 1160 556 1280 506" stroke-width="0.9"/>
+      <path d="M36 86C200 28 360 156 620 74C880 0 1020 58 1164 30" stroke-width="1.6"/>
+      <path d="M36 118C220 62 380 190 640 110C900 34 1040 92 1164 58" stroke-width="0.9"/>
+      <path d="M36 548C240 478 460 612 740 528C1020 448 1100 512 1164 470" stroke-width="1.6"/>
+      <path d="M36 582C250 520 480 608 760 564C1040 500 1120 548 1164 514" stroke-width="0.9"/>
     </g>
     """
 
